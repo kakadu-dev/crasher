@@ -3,7 +3,7 @@ plugins {
 }
 apply plugin: 'com.android.library'
 
-def build = 1
+def build = 2
 
 group = 'com.github.kakadu-dev'
 version = "1.0.$build"
@@ -14,7 +14,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode group
+        versionCode build
         versionName version
         archivesBaseName = "crasher-$version"
     }
