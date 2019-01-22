@@ -3,7 +3,7 @@ plugins {
 }
 apply plugin: 'com.android.library'
 
-def build = 2
+def build = 3
 
 group = 'com.github.kakadu-dev'
 version = "1.0.$build"
